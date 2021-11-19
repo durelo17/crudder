@@ -1,6 +1,6 @@
 # crudder
 
-<p>Fournit des méthodes CRUD génériques pour tout projet basé sur Entity Framwork 6 :</p>
+<p>Fournit des méthodes CRUD génériques pour tout projet basé sur Entity Framework 6 :</p>
 <h5>IEntityReader (et son implémentation <em>EntityReader&lt;TContext&gt;</em>)</h5>
 <ul>
   <li><em>GetOne&lt;T&gt;(params object[] keyValues)</em> : récupère en base l'entité correspondant aux valeurs de clefs primaires spécifiées</li>
