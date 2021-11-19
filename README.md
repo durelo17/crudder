@@ -3,7 +3,7 @@
 <p>Fournit des méthodes CRUD génériques pour tout projet basé sur Entity Framwork 6 :</p>
 <h5>IEntityReader (et son implémentation <em>EntityReader&lt;TContext&gt;</em>)</h5>
 <ul>
-  <li>GetOne&lt;T&gt;(params object[] keyValues) : récupère en base l'entité correspondant aux valeurs de clefs primaires spécifiées</li>
+  <li><em>GetOne&lt;T&gt;(params object[] keyValues)</em> : récupère en base l'entité correspondant aux valeurs de clefs primaires spécifiées</li>
   <li><em>GetOne&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt; predicate, params string[] includes)</em> : récupère en base l'entité répondant au prédicat spécifié, en incluant les dépendances spécifiées le cas échéant</li>
   <li><em>GetAll&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt; predicate, params string[] includes)</em> : récupère en base les entités répondant au prédicat spécifié, en incluant les dépendances spécifiées le cas échéant</li>
   <li><em>GetOneAsync&lt;T&gt;(params object[] keyValues)</em> : récupère en base, de manière asynchrone, l'entité correspondant aux valeurs de clefs primaires spécifiées</li>
